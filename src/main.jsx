@@ -12,6 +12,10 @@ import { store } from '@/stores/store.js'
 let theme = createTheme({
   typography: {
     fontFamily: 'Oswald',
+    fontSize: 12,
+  },
+  shape: {
+    borderRadius: 8,
   },
 })
 theme = responsiveFontSizes(theme)
